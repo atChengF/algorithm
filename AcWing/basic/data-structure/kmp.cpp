@@ -8,13 +8,11 @@ int n;
 
 void get_ne(string pattern){
     ne[0] = -1;
-    int j  = 0, k = -1;
-    while(j < n){
-        if(k == - 1 || pattern[j] == pattern[k]) ne[ ++ j] = ++ k;
-        else k = ne[k];
+    int i = 0, j = -1;
+    while(i < n){
+        if(j != - 1 && pattern[i] != pattern[j]) j = ne[j];
+        else ne[++ i] = ++ j;
     }
-    for(int i = 0; i <= n ; i ++ ) cout << ne[i] <<  " ";
-    cout << endl;
     return;
 }
 
