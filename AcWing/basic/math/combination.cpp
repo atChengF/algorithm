@@ -12,7 +12,7 @@ int C[N][N];
 int main(){
     for(int i = 0; i < N; i ++ ){
         for(int j = 0; j < N && j < i; j ++ ){
-            if(i == j) C[i][j] = 0;
+            if(j == 0) C[i][j] = 0;
             C[i][j] = C[i - 1][j - 1] + C[i - 1][j];
         }
     }
