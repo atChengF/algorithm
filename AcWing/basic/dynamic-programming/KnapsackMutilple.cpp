@@ -3,7 +3,8 @@
 // 给定 v[N], w[N], c[N], 最大体积 V , N 个物品 , 求最大价值是多少？
 // c[N] 是数量
 
-// 朴素做法, 将物品 c[N] 个物品拆开看，变成了 01 背包问题
+// 朴素做法, 将物品 c[N] 个物品拆开看，变成了 01 背包问题 ,
+// attention : 方案数量用这种写法
 #include <iostream>
 #include <cstring>
 using namespace std;
