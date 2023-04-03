@@ -15,6 +15,7 @@ Here are the LeetCode problems I solved recently:
 - Leetcode 1637 daily 2023/3/30 maxWidthOfVerticalArea
 - Leetcode 1641 daily 2023/3/31 arithmeticTriplets
 - LeetCode 1039 daily 2023/4/2  minScoreTriangulation
+- Leetcode 1092 daily 2023/4/3  prevPermOpt1
 
 ### leetcode dynamic
 
